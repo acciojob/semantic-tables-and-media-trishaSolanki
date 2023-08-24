@@ -1,59 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Table and List</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>List of medias</h1>
-	<table>
-	<thead>
-			<tr>
-			<th>Roll number</th>
-			<th>Name</th>
-</tr>
-	</thead>
-			<tr>
-				<td>jyoti</td>
-				<td>556</td>
-				
-			</tr>
-			<tr>
-				<td>kalu</td>
-				<td>213</td>
-			</tr>
-			<tr>
-				<td>monti</td>
-				<td>467</td>
-			</tr>
-			
-		</tbody>
-	</table>
-	<h2>List of medias</h2>
-	<ol>
-		<li>
-			<p>Image:</p>
-			<img src="https://fastly.picsum.photos/id/123/200/300.jpg?hmac=uMA4z26tAYQnhW8_XlH0SoULB5z9s8tan-WCDkzbdMs" alt="Random Image">
-		</li>
-		<li>
-			<p>Video:</p>
-			<video controls>
-				<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"  alt="video/mp4">
-			</video>
-		</li>
-		<li>
-			<p>Audio:</p>
-			<audio controls>
-				<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" alt="audio/ogg">
-			</audio>
-		</li>
-	</ol>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>List of Media</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Jane Smith</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Michael Johnson</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>List of Medias</h2>
+    
+    <ol>
+        <li>
+            <p>Image:</p>
+            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+        </li>
+        <li>
+            <p>Video:</p>
+            <video controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+        <li>
+            <p>Audio:</p>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio tag.
+            </audio>
+        </li>
+    </ol>
 </body>
-
 </html>
